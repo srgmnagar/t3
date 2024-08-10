@@ -346,7 +346,12 @@ section{
   font-weight: normal;
   color: #ffffff9f;
 }
-.section2 img{
+.section2{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.section2 >img{
   width: 50rem;
 }
 .section3{
@@ -365,9 +370,6 @@ section{
   justify-content: center;
   gap: 1rem;
   margin: auto;
-  position: absolute;
-  bottom: 3rem;
-    left: 57rem;
 }
 .imgs3 img{
   width: 8rem;
