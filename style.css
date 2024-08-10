@@ -26,7 +26,12 @@ header {
   align-items: center;
 }
 header div {
+  display: flex;
+  gap: 1rem;
   color: white;
+}
+header img{
+  height: 3rem;
 }
 nav {
   display: flex;
